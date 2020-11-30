@@ -290,12 +290,21 @@ footer {
         width: 100%;
         margin-bottom: 30px;
     }
+
+    a.nav-link {
+        margin-left: 3%;
+    }
+    
+    form.form-inline.center {
+        padding-top: 2%;
+    }
 }
 
 @media screen and (max-width: 1280px) {
     section.contato {
         min-height: 0px;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -309,4 +318,13 @@ footer {
     .formulario textarea {
         margin-bottom: 0;
     }
+
+    a.nav-link {
+        margin-left: 3%;
+    }
+    
+    form.form-inline.center {
+        padding-top: 2%;
+    }
 }
+
