@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projeto EAD</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+</head>
+
+<body>
+    <header class="pt-0 mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/owl_logo_nav.png" width="" height="30" alt="Logo">
+              </a>
+              
+
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarSupportedContent">
+                
+                
+                <form class="form-inline center" action="/action_page.php">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Buscar">
+                        <div class="input-group-append">
+                          <span class="input-group-text btn-pesquisar">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                          </span>
+                        </div>
+                      </div>
+                  </form>
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Contato</h2>
+        </div>
+        </br>
+        <!--container-->
+    </section>
+    <section class="contato">
+        <div class="container">
+            <div class="Largura60 formulario">
+                <h2>Nos envie a sua mensagem</h2>
+                <form method="post">
+                    <div>
+                        <input placeholder="Nome..." type="text" required />
+                    </div>
+                    <div>
+                        <input placeholder="Sobrenome..." type="text" required />
+                    </div>
+                    <div>
+                        <input placeholder="E-mail" type="email" required />
+                    </div>
+                    <div>
+                        <textarea placeholder="Sua mensagem..."></textarea>
+                    </div>
+                    <div class="btn-form">
+                        <p class="btn-contato">ENVIAR</p>
+                    </div>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            <div class="largura50">
+                <p><i class="fas fa-envelope"></i> E-mail: contato@projetoEAD.com</p>
+                <p><i class="fas fa-phone"></i> Telefone: (11) 99999-9999</p>
+            </div>
+            <!--largura50-->
+            <div class="largura50 text-right">
+                <p>Todos os direitos reservados!</p>
+            </div>
+            <!--largura50-->
+            <div class="clear"></div>
+            <!--clear-->
+        </div>
+        <!--center-->
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
