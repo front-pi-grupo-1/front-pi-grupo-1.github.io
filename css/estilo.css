@@ -337,3 +337,12 @@ img.banner.img-fluid {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+section.curso {
+    background-color: #E84349;
+    color: white;
+}
+
+@media (max-width: 720px) {
+    
+}
