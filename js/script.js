@@ -3,7 +3,7 @@ window.addEventListener("load",function(){
     let conteudo=document.querySelector(".caixa-individual-noticia");    
    
     
-    var url = 'http://newsapi.org/v2/everything?' +
+    var url = 'https://newsapi.org/v2/everything?' +
     'q=ead-e-o-futuro&' +
     'apiKey=f3bd2143cba04424a31245ae208cccf7';
         var req = new Request(url);
