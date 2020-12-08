@@ -38,5 +38,22 @@ form.addEventListener("submit", function(evento) {
 });
 
 
+function filter() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("input-search");
+    filter = input.value.toUpperCase();
+    divCurso = document.getElementById("div-curso");
+    div = divCurso.getElementsByTagName("div");
+    for (i = 0; i < div.length; i++) {
+        h2 = div[i].getElementsByTagName("h2")[0];
+        txtValue = h2.textContent || h2.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "";
+        } else {
+            div[i].style.display = "none";
+        }
+    }
+}
+
 
     
