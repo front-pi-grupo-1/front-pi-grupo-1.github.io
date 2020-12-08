@@ -4,174 +4,176 @@
     box-sizing: border-box;
     /*font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;*/
     font-family: "Arial";
-}
-
-a {
+  }
+  
+  a {
     text-decoration: none;
-}
-
-.center {
+  }
+  
+  .center {
     /* max-width: 1280px;*/
     margin: 0 auto;
     padding: 0 2%;
-}
-
-.clear {
+  }
+  
+  .clear {
     clear: both;
-}
-
-header {
+  }
+  
+  header {
     padding: 10px 0;
-}
-
-header .menu-retorna {
+  }
+  
+  header .menu-retorna {
     text-decoration: none;
-}
-
-header .center {
+  }
+  
+  header .center {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-#logo {
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
+  }
+  
+  #logo {
     width: 120px;
     height: 50px;
-}
-
-.logo {
+  }
+  
+  .logo {
     color: white;
     font-size: 21px;
-}
-
-#container {
+  }
+  
+  #container {
     display: flex;
     background-color: #e84349;
     height: 30vh;
     width: 100vw;
     text-align: center;
-}
-
-#container h1 {
+  }
+  
+  #container h1 {
     margin: auto;
     color: white;
-}
-
-h2 {
+  }
+  
+  h2 {
     display: block;
     margin-block-start: 3em;
     text-align: center;
-}
-
-h3 {
+  }
+  
+  h3 {
     color: rgba(0, 0, 0, 0.281);
     display: block;
     margin-block-end: 1.5em;
     text-align: center;
-}
-
-.container img {
+  }
+  
+  .container img {
     height: 250px;
     width: auto;
-}
-
-.container #colaboradores {
+  }
+  
+  .container #colaboradores {
     border-radius: 50%;
-}
-
-.container #names {
+  }
+  
+  .container #names {
     font-size: 1.3em;
     margin-block-start: 3em;
-}
-
-.container #bloco-colaborador {
+  }
+  
+  .container #bloco-colaborador {
     margin-block-end: 3em;
-}
-
-#container-parceiros {
+  }
+  
+  #container-parceiros {
     margin-left: 0;
     width: 100vw;
-}
-
-#bloco-parceiros {
+  }
+  
+  #bloco-parceiros {
     height: 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-color: #e84349;
-}
-
-#parceiros {
+  }
+  
+  #parceiros {
     display: flex;
     width: 80px;
     height: 45px;
-}
-
-section.loja>.center {
+  }
+  
+  section.loja > .center {
     display: flex;
     flex-wrap: wrap;
-}
-
-.logo-curso {
+  }
+  
+  .logo-curso {
     width: 33.3%;
     padding: 20px;
-}
-
-
-/*Elementos do Boot CSS*/
-
-.text-right {
+  }
+  
+  /*Elementos do Boot CSS*/
+  
+  .text-right {
     display: flex;
     justify-content: flex-end;
     text-align: right;
-}
-
-.largura50 {
+  }
+  
+  .largura50 {
     float: left;
     width: 50%;
     padding: 0 15px;
-}
-
-.largura50 h1 {
+  }
+  
+  .largura50 h1 {
     margin-bottom: 15px;
     font-size: 26px;
     font-weight: normal;
     color: #4b4b4b;
-}
-
-footer {
+  }
+  
+  footer {
     padding: 20px 0;
     background: #31a4e7;
     color: white;
-}
-
-@media screen and (max-width: 960px) {
+  }
+  
+  @media screen and (max-width: 960px) {
     .logo-curso {
-        width: 100%;
-        max-width: 500px;
-        padding: 20px;
-        margin: 30px auto;
+      width: 100%;
+      max-width: 500px;
+      padding: 20px;
+      margin: 30px auto;
     }
     .largura50 {
-        width: 100%;
-        margin-bottom: 30px;
-        text-align: center;
+      width: 100%;
+      margin-bottom: 30px;
+      text-align: center;
     }
-    .container {
-        display: block;
-        text-align: center;
+  
+    section {
+      display: block;
+      text-align: center;
     }
+  
     .text-right {
-        display: flex;
-        justify-content: center;
+      display: flex;
+      justify-content: center;
     }
-}
-
-@media screen and (max-width: 560px) {
+  }
+  
+  @media screen and (max-width: 560px) {
     #parceiros {
-        display: flex;
-        width: 70px;
-        height: 40px;
+      display: flex;
+      width: 70px;
+      height: 40px;
     }
-}
+  }
+  
