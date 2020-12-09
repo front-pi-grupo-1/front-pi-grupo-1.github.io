@@ -1,179 +1,241 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /*font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;*/
-    font-family: "Arial";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;*/
+  font-family: "Arial";
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  /* max-width: 1280px;*/
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  padding: 10px 0;
+}
+
+header .menu-retorna {
+  text-decoration: none;
+}
+
+header .center {
+  display: flex;
+  /*justify-content: space-evenly;*/
+  /*align-items: center;*/
+}
+
+#logo {
+  width: 120px;
+  height: 50px;
+}
+
+.logo {
+  color: white;
+  font-size: 21px;
+}
+
+#container {
+  display: flex;
+  background-color: #e84349;
+  height: 30vh;
+  width: 100vw;
+  text-align: center;
+}
+
+#container h1 {
+  margin: auto;
+  color: white;
+}
+
+h2 {
+  display: block;
+  margin-block-start: 3em;
+  text-align: center;
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0.281);
+  display: block;
+  margin-block-end: 1.5em;
+  text-align: center;
+}
+
+.container img {
+  height: 250px;
+  width: auto;
+}
+
+.container #colaboradores {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.container #names {
+  font-size: 1.3em;
+  margin-block-start: 3em;
+}
+
+.container #bloco-colaborador {
+  margin-block-end: 3em;
+}
+
+#container-parceiros {
+  margin-left: 0;
+  width: 100vw;
+}
+
+#bloco-parceiros {
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e84349;
+}
+
+#parceiros {
+  display: flex;
+  width: 80px;
+  height: 45px;
+}
+
+section.loja > .center {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-curso {
+  width: 33.3%;
+  padding: 20px;
+}
+
+/*Elementos do Boot CSS*/
+
+.text-right {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.largura50 {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.largura50 h1 {
+  margin-bottom: 15px;
+  font-size: 26px;
+  font-weight: normal;
+  color: #4b4b4b;
+}
+
+footer {
+  padding: 20px 0;
+  background: #31a4e7;
+  color: white;
+}
+
+@media screen and (max-width: 960px) {
+  a.nav-link {
+    margin-left: 3%;
   }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .center {
-    /* max-width: 1280px;*/
-    margin: 0 auto;
-    padding: 0 2%;
-  }
-  
-  .clear {
-    clear: both;
-  }
-  
-  header {
-    padding: 10px 0;
-  }
-  
-  header .menu-retorna {
-    text-decoration: none;
-  }
-  
-  header .center {
-    display: flex;
-    /*justify-content: space-evenly;*/
-    /*align-items: center;*/
-  }
-  
-  #logo {
-    width: 120px;
-    height: 50px;
-  }
-  
-  .logo {
-    color: white;
-    font-size: 21px;
-  }
-  
-  #container {
-    display: flex;
-    background-color: #e84349;
-    height: 30vh;
-    width: 100vw;
-    text-align: center;
-  }
-  
-  #container h1 {
-    margin: auto;
-    color: white;
-  }
-  
-  h2 {
-    display: block;
-    margin-block-start: 3em;
-    text-align: center;
-  }
-  
-  h3 {
-    color: rgba(0, 0, 0, 0.281);
-    display: block;
-    margin-block-end: 1.5em;
-    text-align: center;
-  }
-  
-  .container img {
-    height: 250px;
-    width: auto;
-  }
-  
-  .container #colaboradores {
-    border-radius: 50%;
-  }
-  
-  .container #names {
-    font-size: 1.3em;
-    margin-block-start: 3em;
-  }
-  
-  .container #bloco-colaborador {
-    margin-block-end: 3em;
-  }
-  
-  #container-parceiros {
-    margin-left: 0;
-    width: 100vw;
-  }
-  
-  #bloco-parceiros {
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #e84349;
-  }
-  
-  #parceiros {
-    display: flex;
-    width: 80px;
-    height: 45px;
-  }
-  
-  section.loja > .center {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
+
   .logo-curso {
-    width: 33.3%;
+    width: 100%;
+    max-width: 500px;
     padding: 20px;
+    margin: 30px auto;
   }
-  
-  /*Elementos do Boot CSS*/
-  
+  .largura50 {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  section {
+    display: block;
+    text-align: center;
+  }
+
   .text-right {
     display: flex;
-    justify-content: flex-end;
-    text-align: right;
+    justify-content: center;
   }
-  
-  .largura50 {
-    float: left;
-    width: 50%;
-    padding: 0 15px;
+}
+
+@media screen and (max-width: 560px) {
+  #parceiros {
+    display: flex;
+    width: 70px;
+    height: 40px;
   }
-  
-  .largura50 h1 {
-    margin-bottom: 15px;
-    font-size: 26px;
-    font-weight: normal;
-    color: #4b4b4b;
+}
+
+.grow {
+  animation: grow 0.3s ease-in-out forwards;
+}
+
+.shrink {
+  animation: shrink 0.3s ease-in-out forwards;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(1);
   }
-  
-  footer {
-    padding: 20px 0;
-    background: #31a4e7;
-    color: white;
+  to {
+    transform: scale(1.2);
+    z-index: 50;
   }
-  
-  @media screen and (max-width: 960px) {
-    .logo-curso {
-      width: 100%;
-      max-width: 500px;
-      padding: 20px;
-      margin: 30px auto;
-    }
-    .largura50 {
-      width: 100%;
-      margin-bottom: 30px;
-      text-align: center;
-    }
-  
-    section {
-      display: block;
-      text-align: center;
-    }
-  
-    .text-right {
-      display: flex;
-      justify-content: center;
-    }
+}
+
+@keyframes shrink {
+  from {
+    transform: scale(1.2);
+    z-index: 50;
   }
-  
-  @media screen and (max-width: 560px) {
-    #parceiros {
-      display: flex;
-      width: 70px;
-      height: 40px;
-    }
+  to {
+    transform: scale(1);
+    z-index: 0;
   }
-  
+}
+
+.grow2 {
+  animation: grow2 0.3s ease-in-out forwards;
+}
+
+.shrink2 {
+  animation: shrink2 0.3s ease-in-out forwards;
+}
+
+@keyframes grow2 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.02);
+    z-index: 50;
+  }
+}
+
+@keyframes shrink2 {
+  from {
+    transform: scale(1.02);
+    z-index: 50;
+  }
+  to {
+    transform: scale(1);
+    z-index: 0;
+  }
+}
