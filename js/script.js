@@ -29,6 +29,46 @@ window.addEventListener("load",function(){
         
     )
     
-    })
+    })    
 
-    
+    let logosParceiros = document.querySelectorAll('.parceiros-images img');
+    let colabImages = document.querySelectorAll('.colab-images img');
+
+
+    for(let i = 0; i < logosParceiros.length; i++){
+
+        logosParceiros[i].onmouseover = function(){
+            this.classList.remove('shrink');
+            this.classList.add('grow');
+        }
+        logosParceiros[i].onmouseout = function(){
+            this.classList.remove('grow');
+            this.classList.add('shrink');
+        }
+
+    }
+
+    for(let i = 0; i < colabImages.length; i++){
+
+        colabImages[i].onmouseover = function(){
+            this.style.opacity = 0.5;
+            this.classList.remove('shrink2');
+            this.classList.add('grow2');
+        }
+        colabImages[i].onmouseout = function(){
+            this.style.opacity = 1;
+            this.classList.remove('grow2');
+            this.classList.add('shrink2');
+        }
+
+        colabImages[0].onclick = function(){
+            window.open("https://www.linkedin.com/");
+        }
+        colabImages[1].onclick = function(){
+            window.open("https://www.linkedin.com/");
+        }
+        colabImages[2].onclick = function(){
+            window.open("https://www.linkedin.com/");
+        }
+
+    }
